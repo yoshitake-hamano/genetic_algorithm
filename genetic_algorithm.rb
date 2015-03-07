@@ -32,7 +32,6 @@ class GeneticAlgorithm
       child    = x
       i        = rand(child.size)
       child[i] += 1
-      child[i] = 0 if child[i] >= 10
       return child
     end
 
